@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPTU\\Semester_8\\PRN231\\Projects\\KeyboardSimulator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{266A39EB-75B5-476F-AA78-F4A9B01F7882}|KeyboardSimulator\\KeyboardSimulator.csproj|d:\\fptu\\semester_8\\prn231\\projects\\keyboardsimulator\\keyboardsimulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{266A39EB-75B5-476F-AA78-F4A9B01F7882}|KeyboardSimulator\\KeyboardSimulator.csproj|solutionrelative:keyboardsimulator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC33A501-7FC7-4911-B808-A47F4244314F}|Common\\Common.csproj|d:\\fptu\\semester_8\\prn231\\projects\\keyboardsimulator\\common\\numberutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC33A501-7FC7-4911-B808-A47F4244314F}|Common\\Common.csproj|solutionrelative:common\\numberutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{011433E5-B247-41C9-B0BF-C8FBF891C9AA}|GUI\\GUI.csproj|d:\\fptu\\semester_8\\prn231\\projects\\keyboardsimulator\\gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{011433E5-B247-41C9-B0BF-C8FBF891C9AA}|GUI\\GUI.csproj|solutionrelative:gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{011433E5-B247-41C9-B0BF-C8FBF891C9AA}|GUI\\GUI.csproj|d:\\fptu\\semester_8\\prn231\\projects\\keyboardsimulator\\gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{011433E5-B247-41C9-B0BF-C8FBF891C9AA}|GUI\\GUI.csproj|solutionrelative:gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NumberUtility.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester_8\\PRN231\\Projects\\KeyboardSimulator\\Common\\NumberUtility.cs",
+              "RelativeDocumentMoniker": "Common\\NumberUtility.cs",
+              "ToolTip": "D:\\FPTU\\Semester_8\\PRN231\\Projects\\KeyboardSimulator\\Common\\NumberUtility.cs",
+              "RelativeToolTip": "Common\\NumberUtility.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T13:43:17.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\FPTU\\Semester_8\\PRN231\\Projects\\KeyboardSimulator\\GUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "GUI\\MainWindow.xaml",
+              "ToolTip": "D:\\FPTU\\Semester_8\\PRN231\\Projects\\KeyboardSimulator\\GUI\\MainWindow.xaml",
+              "RelativeToolTip": "GUI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-24T13:41:55.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester_8\\PRN231\\Projects\\KeyboardSimulator\\GUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GUI\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\FPTU\\Semester_8\\PRN231\\Projects\\KeyboardSimulator\\GUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GUI\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T13:41:54.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPTU\\Semester_8\\PRN231\\Projects\\KeyboardSimulator\\KeyboardSimulator\\Program.cs",
+              "RelativeDocumentMoniker": "KeyboardSimulator\\Program.cs",
+              "ToolTip": "D:\\FPTU\\Semester_8\\PRN231\\Projects\\KeyboardSimulator\\KeyboardSimulator\\Program.cs",
+              "RelativeToolTip": "KeyboardSimulator\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAmwAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T12:23:23.455Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1416,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 55,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:8:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:15:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 55,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

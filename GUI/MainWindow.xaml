@@ -5,8 +5,71 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="450" Width="1000">
+    <DockPanel>
+        <ToolBar DockPanel.Dock="Top">
+            <Button Content="New" Width="60" />
+            <Button Content="Open" Width="60" />
+            <Button Content="Save" Width="60" />
+            <Separator />
 
-    </Grid>
+            <Button Width="50" ToolTip="Alt + Q">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image Source="assets/icons/play-button.png" Width="20" Height="20" />
+                    <TextBlock Text="Start" HorizontalAlignment="Center" />
+                </StackPanel>
+            </Button>
+            <Button Width="50" ToolTip="Alt + W">
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image Source="assets/icons/stop-button.png" Width="20" Height="20" />
+                    <TextBlock Text="Stop" HorizontalAlignment="Center" />
+                </StackPanel>
+            </Button>
+            <!--
+            <Button Content="Cut" Width="60" />
+            <Button Content="Copy" Width="60" />
+            <Button Content="Paste" Width="60" />
+            -->
+        </ToolBar>
+        <ScrollViewer Padding="20" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+            <Grid x:Name="MainGrid">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70" />
+                    <ColumnDefinition Width="150" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="70" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Action" FontWeight="bold"/>
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="Type" FontWeight="bold"/>
+                <TextBlock Grid.Row="0" Grid.Column="2" Text="Delay" FontWeight="bold"/>
+                <TextBlock Grid.Row="0" Grid.Column="3" Text="Hold Interval" FontWeight="bold"/>
+                <TextBlock Grid.Row="0" Grid.Column="4" Text="CD" FontWeight="bold"/>
+                <TextBlock Grid.Row="0" Grid.Column="5" Text="Random Index" FontWeight="bold"/>
+                <TextBlock Grid.Row="0" Grid.Column="6" Text="Repeat Time" FontWeight="bold"/>
+                <TextBlock Grid.Row="0" Grid.Column="7" Text="Is Active" FontWeight="bold"/>
+            </Grid>
+        </ScrollViewer>
+    </DockPanel>
 </Window>

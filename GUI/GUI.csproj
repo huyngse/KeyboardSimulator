@@ -8,4 +8,18 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="assets\icons\play-button.png" />
+    <None Remove="assets\icons\stop-button.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\icons\play-button.png" />
+    <Resource Include="assets\icons\stop-button.png" />
+  </ItemGroup>
+
 </Project>

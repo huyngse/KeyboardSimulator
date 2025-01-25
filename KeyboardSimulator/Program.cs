@@ -31,6 +31,7 @@ namespace KeyboardSimulator
                     650 + NumberUtility.GenerateRandomInteger(1, 16),
                     NumberUtility.GenerateRandomInteger(100, 200)
                     );
+                Thread.Sleep(NumberUtility.GenerateRandomInteger(100, 200));
                 MouseUltility.LeftClick(mousePos.X, mousePos.Y);
                 Thread.Sleep(NumberUtility.GenerateRandomInteger(5000, 5500));
                 mousePos = Control.MousePosition;
@@ -39,6 +40,7 @@ namespace KeyboardSimulator
                   560 + NumberUtility.GenerateRandomInteger(1, 16),
                   NumberUtility.GenerateRandomInteger(100, 200)
                   );
+                Thread.Sleep(NumberUtility.GenerateRandomInteger(100, 200));
                 MouseUltility.LeftClick(mousePos.X, mousePos.Y);
                 Thread.Sleep(NumberUtility.GenerateRandomInteger(500, 1000));
             }

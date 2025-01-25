@@ -11,31 +11,36 @@ namespace Common.utils
     {
         [DllImport("user32.dll")]
         private static extern bool SetCursorPos(int X, int Y);
+        [DllImport("user32.dll")]
+        private static extern void mouse_event(uint dwFlags, uint dx, uint dy, uint dwData, int dwExtraInfo);
+
+        // Constants for mouse_event
+        private const uint MOUSEEVENTF_LEFTDOWN = 0x0002;
+        private const uint MOUSEEVENTF_LEFTUP = 0x0004;
         public static void MoveMouseRandomCurve(int startX, int startY, int endX, int endY, int duration)
         {
-            int steps = 100; // Number of steps for the smooth movement
-            double stepDuration = duration / (double)steps; // Duration for each step
+            int steps = 10; 
+            double stepDuration = duration / (double)steps; 
 
             Random rand = new Random();
+            int randomIndex = (rand.Next(1, 70)) - 45;
 
             for (int i = 0; i <= steps; i++)
             {
-                // Calculate the progress (0 to 1)
                 double t = i / (double)steps;
 
-                // Create a random offset for the y-coordinate to create a curve effect
-                double offset = Math.Sin(t * Math.PI) * (rand.Next(20, 100)); // Random amplitude
+                double offset = Math.Sin(t * Math.PI) * randomIndex; 
 
-                // Calculate the current position using a curved path
                 int currentX = (int)(startX + (endX - startX) * t);
                 int currentY = (int)(startY + (endY - startY) * t) + (int)offset;
-
-                // Move the cursor to the current position
                 SetCursorPos(currentX, currentY);
-
-                // Wait for the specified duration
                 Thread.Sleep((int)stepDuration);
             }
+        }
+        public static void LeftClick(int x, int y)
+        {
+            mouse_event(MOUSEEVENTF_LEFTDOWN, (uint)x, (uint)y, 0, 0);
+            mouse_event(MOUSEEVENTF_LEFTUP, (uint)x, (uint)y, 0, 0);
         }
     }
 }
